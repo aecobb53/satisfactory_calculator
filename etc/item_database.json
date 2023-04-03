@@ -1,0 +1,141 @@
+[
+    {
+        "name": "iron_ingot",
+        "recipes": [
+            {
+                "name": "iron_ingot",
+                "input_items": {
+                    "iron_ore": 1
+                },
+                "output_items": {
+                    "iron_ingot": 1
+                },
+                "craft_time_seconds": 2.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "iron_plate",
+        "recipes": [
+            {
+                "name": "iron_plate",
+                "input_items": {
+                    "iron_ingot": 3
+                },
+                "output_items": {
+                    "iron_plate": 2
+                },
+                "craft_time_seconds": 6.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "iron_rod",
+        "recipes": [
+            {
+                "name": "iron_rod",
+                "input_items": {
+                    "iron_ingot": 3
+                },
+                "output_items": {
+                    "iron_rod": 1
+                },
+                "craft_time_seconds": 4.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "modular_frame",
+        "recipes": [
+            {
+                "name": "modular_frame",
+                "input_items": {
+                    "reinforced_iron_plate": 3,
+                    "iron_rod": 12
+                },
+                "output_items": {
+                    "modular_frame": 2
+                },
+                "craft_time_seconds": 60.0,
+                "power_required": null
+            },
+            {
+                "name": "modular_frame",
+                "input_items": {
+                    "reinforced_iron_plate": 2,
+                    "steel_pipe": 10
+                },
+                "output_items": {
+                    "modular_frame": 3
+                },
+                "craft_time_seconds": 60.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "reinforced_iron_plate",
+        "recipes": [
+            {
+                "name": "reinforced_iron_plate",
+                "input_items": {
+                    "iron_plate": 6,
+                    "screw": 12
+                },
+                "output_items": {
+                    "reinforced_iron_plate": 1
+                },
+                "craft_time_seconds": 12.0,
+                "power_required": null
+            },
+            {
+                "name": "reinforced_iron_plate",
+                "input_items": {
+                    "iron_plate": 10,
+                    "copper_wire": 20
+                },
+                "output_items": {
+                    "reinforced_iron_plate": 3
+                },
+                "craft_time_seconds": 32.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "rotor",
+        "recipes": [
+            {
+                "name": "rotor",
+                "input_items": {
+                    "iron_rod": 6,
+                    "screw": 6
+                },
+                "output_items": {
+                    "rotor": 1
+                },
+                "craft_time_seconds": 15.0,
+                "power_required": null
+            }
+        ]
+    },
+    {
+        "name": "screw",
+        "recipes": [
+            {
+                "name": "screw",
+                "input_items": {
+                    "iron_rod": 1
+                },
+                "output_items": {
+                    "screw": 4
+                },
+                "craft_time_seconds": 6.0,
+                "power_required": null
+            }
+        ]
+    }
+]
